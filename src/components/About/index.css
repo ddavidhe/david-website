@@ -5,6 +5,7 @@
     padding-top: 18%;
     margin-left: 0;
     position: absolute;
+    /*top: 200px; this is to put the box downwards, fit a photo! :) */ 
     right: 0;
     overflow: hidden;
   }
