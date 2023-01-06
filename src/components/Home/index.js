@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react';
+import Loader from 'react-loaders';
 import { Link } from 'react-router-dom';
 import AnimatedLetters from '../AnimatedLetters';
 import './index.css';
@@ -16,6 +17,7 @@ const Home = () => {
     
 
     return (
+        <>
         <div className="container home-page">
             <div className="text-zone">
                 <h1> 
@@ -41,6 +43,8 @@ const Home = () => {
             </div>
 
         </div>
+        <Loader type="ball-grid-pulse" />
+        </>
 
     );
 

@@ -2,6 +2,7 @@ import AnimatedLetters from '../AnimatedLetters'
 import './index.scss'
 import { useEffect, useRef, useState } from 'react'
 import emailjs from '@emailjs/browser';
+import Loader from 'react-loaders';
 
 const Contact = () => {
     const form = useRef();
@@ -80,6 +81,7 @@ const Contact = () => {
                 </div>
             </div>
         </div>
+        <Loader type="ball-grid-pulse" />
     </>
     )
 
