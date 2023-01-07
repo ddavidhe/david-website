@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import AnimatedLetters from '../AnimatedLetters';
 import './index.css';
 
-function Home(){
+function Home() {
     const [letterClass, setLetterClass] = useState('text-animate')
     const nameArray = [' ', 'D', 'a', 'v', 'i', 'd', ' ', 'H', 'e', ',']
     const subArray = ['U', 'W', ' ', 'S', 't', 'u', 'd', 'e', 'n', 't']

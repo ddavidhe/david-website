@@ -2,7 +2,7 @@ import './index.css';
 import Sidebar from '../Sidebar'
 import { Outlet } from 'react-router-dom';
 
-const Layout = () => {
+function Layout() {
     return (
         <div className="App">
             <Sidebar/>
