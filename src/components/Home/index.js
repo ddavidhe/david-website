@@ -41,7 +41,6 @@ function Home(){
                 <h2> gacha addict, aspiring programmer</h2>
                 <Link to="/contact" className="flat-button"> CONTACT ME </Link>
             </div>
-
         </div>
         <Loader type="ball-grid-pulse" />
         </>
