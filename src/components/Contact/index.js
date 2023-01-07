@@ -4,7 +4,7 @@ import { useEffect, useRef, useState } from 'react'
 import emailjs from '@emailjs/browser';
 import Loader from 'react-loaders';
 
-const Contact = () => {
+function Contact(){
     const form = useRef();
 
     const sendEmail = (e) => {

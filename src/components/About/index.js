@@ -5,9 +5,9 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCss3Alt, faGitAlt, faHtml5, faJsSquare, faPython, faReact } from '@fortawesome/free-brands-svg-icons'
 import Loader from 'react-loaders'
 
-const About = () => {
+function About() {
 
-    const [letterClass, setLetterClass] = useState('text-animate')
+    const [letterClass, setLetterClass] = useState('text-animate');
 
     useEffect(() => {
         setTimeout(() => {
@@ -59,6 +59,6 @@ const About = () => {
         </>
     )
 
-}
+};
 
 export default About
