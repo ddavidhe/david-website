@@ -64,7 +64,7 @@
   }
   .container.contact-page h1:after,
   .container.about-page h1:after {
-    content: "<h1/>";
+    content: "</h1>";
     font-family: "La Belle Aurore", cursive;
     color: white;
     font-size: 18px;

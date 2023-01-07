@@ -71,16 +71,22 @@ function Contact() {
                                 </textarea>
                             </li>
                             <li>
-                                <input type="submit" className='flat-button' required>
+                                <input type="submit" className='flat-button' value="SEND" required> 
 
                                 </input>
                             </li>
                         </ul>
                     </form>
-
                 </div>
             </div>
+            
+            <div className='resume-box'>
+                <a href="https://drive.google.com/file/d/1x3W13zMHVZunuYCvNu9V4daYQmWj1SYs/view?usp=sharing" 
+                target="_blank" rel="noreferrer" class="flat-button"> Download Resume </a>
+            </div>
+
         </div>
+
         <Loader type="ball-grid-pulse" />
     </>
     )
