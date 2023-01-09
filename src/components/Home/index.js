@@ -7,12 +7,12 @@ import './index.css';
 function Home() {
     const [letterClass, setLetterClass] = useState('text-animate')
     const nameArray = [' ', 'D', 'a', 'v', 'i', 'd', ' ', 'H', 'e', ',']
-    const subArray = ['U', 'W', ' ', 'S', 't', 'u', 'd', 'e', 'n', 't']
+    const subArray = ['A', 's', 'p', 'i', 'r', 'i', 'n', 'g', ' ', 'D', 'e', 'v', 'e', 'l', 'o', 'p', 'e', 'r']
 
     useEffect(() => {
       setTimeout(() => {
         return setLetterClass('text-animate-hover')
-      }, 3000)
+      }, 5000)
     }, []);
     
 
@@ -21,7 +21,7 @@ function Home() {
         <div className="container home-page">
             <div className="text-zone">
                 <h1> 
-                <span className= {letterClass}>H</span>
+                <span className= {`${letterClass} _11`}>H</span>
                 <span className= {`${letterClass} _12`}>i</span>
                 <span className= {`${letterClass} _13`}>,</span>
                     <br/>
@@ -32,13 +32,14 @@ function Home() {
 
                 <AnimatedLetters letterClass={letterClass}
                 strArray={nameArray} 
-                index = {15}/>
+                index = {17}/>
                 <br/>
                 <AnimatedLetters letterClass={letterClass}
                 strArray={subArray}
-                index = {25}/>
+                index = {26}/>
                 </h1>
-                <h2> gacha addict, aspiring programmer</h2>
+
+                <h2> mathematics student at UW, swimmer, gacha enthusiast</h2>
                 <Link to="/contact" className="flat-button"> CONTACT ME </Link>
             </div>
         </div>

@@ -3,6 +3,9 @@ import './index.css'
 import { useEffect, useRef, useState } from 'react'
 import emailjs from '@emailjs/browser';
 import Loader from 'react-loaders';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faFile } from '@fortawesome/free-solid-svg-icons'
+
 
 function Contact() {
     const form = useRef();
@@ -79,8 +82,15 @@ function Contact() {
                     </form>
                 </div>
             </div>
-            
+
             <div className='resume-box'>
+                <div className='resume-text'>
+                    Alternatively, download my resume!
+                </div>
+                <div className='resume-icon'>
+                <FontAwesomeIcon icon={faFile} color="#4d4d4e" />
+                </div>
+
                 <a href="https://drive.google.com/file/d/1x3W13zMHVZunuYCvNu9V4daYQmWj1SYs/view?usp=sharing" 
                 target="_blank" rel="noreferrer" class="flat-button"> Download Resume </a>
             </div>
