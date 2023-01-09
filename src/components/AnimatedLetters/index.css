@@ -13,7 +13,7 @@
   }
   .text-animate-hover:hover {
     animation: rubberBand 1s;
-    color: black;
+    color: yellow;
   }
 
   .text-animate._1 {
