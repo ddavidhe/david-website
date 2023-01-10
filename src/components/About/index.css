@@ -19,7 +19,8 @@
     border-radius: 4px;
   }
   
-  .buttons .about-button:hover{
+  .buttons .about-button:hover,
+  .buttons .about-button:focus{
     background: yellow;
     color: black;
   }

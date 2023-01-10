@@ -9,6 +9,7 @@ function About() {
     const [letterClass, setLetterClass] = useState('text-animate')
 
     const defaultText = "Click any of the buttons on the left to learn more about me!"
+
     const [title, setTitle] = useState("Hobby here :3");
     const [text, setText] = useState(defaultText);
 
