@@ -88,7 +88,7 @@ function Contact() {
                     Alternatively, download my resume!
                 </div>
                 <div className='resume-icon'>
-                <FontAwesomeIcon icon={faFile} color="#4d4d4e" />
+                <FontAwesomeIcon icon={faFile} color="#FFFFFF" />
                 </div>
 
                 <a href="https://drive.google.com/file/d/1x3W13zMHVZunuYCvNu9V4daYQmWj1SYs/view?usp=sharing" 
