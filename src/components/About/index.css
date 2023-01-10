@@ -1,0 +1,51 @@
+.buttons {
+    margin-left: 700px;
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: 100px 100px 100px 100px;
+    grid-template-rows: 50px;
+    column-gap: 50px;
+
+  }
+  .buttons .about-button {
+    color: yellow;
+    background: 0 0;
+    font: 11px;
+    letter-spacing: 3px;
+    text-decoration: none;
+    padding: 8px 10px;
+    border: 1px solid yellow;
+    float: right;
+    border-radius: 4px;
+  }
+  
+  .buttons .about-button:hover{
+    background: yellow;
+    color: black;
+  }
+
+.about-body{
+    position: absolute;
+    left: 700px;
+    top: 275px;
+    width: 400px;
+
+}
+  .about-heading {
+    position: absolute;
+    font-size: 25px;
+    font-family: "Coolvetica";
+    color: white;
+    font-weight: 400;
+    margin-top: 0;
+    margin-bottom: 40px;
+    left: 0px;
+}
+  .about-text {
+    position: absolute;
+    font-size: 13px;
+    margin-top: 0;
+    margin-bottom: 40px;
+    top: 75px;
+    left: 25px;
+}
