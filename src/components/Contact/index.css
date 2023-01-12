@@ -70,10 +70,10 @@
 
 .resume-box {
   position: absolute;
-  top: 267px;
-  left: 750px;
-  height: 270px;
-  width: 300px;
+  top: 34vh;
+  left: 52vw;
+  height: 34vh;
+  width: 21vw;
   background: #115173;
   border: 1px transparent;
   margin: 0;
@@ -94,16 +94,16 @@
   .resume-box .resume-icon{
     position: absolute;
     color: white;
-    left: 135px;
-    top: 100px;
+    left: 10vw;
+    top: 13vh;
     font-size: 3em;
   
   }
 
   .resume-box .flat-button{
     position: absolute;
-    top: 150px;
-    right: 50px;
+    top: 19vh;
+    right: 3vw;
     color: yellow;
     font-size: 13px;
     font-weight: 400;
