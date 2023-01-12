@@ -1,6 +1,6 @@
 {
   "homepage": "https://ddavidhe.github.io/david-website",
-  "name": "david-website",
+  "name": "david",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
