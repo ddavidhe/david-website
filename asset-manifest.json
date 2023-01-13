@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/david-website/static/css/main.a62d1995.css",
+    "main.css": "/david-website/static/css/main.565f5267.css",
     "main.js": "/david-website/static/js/main.1a28e347.js",
     "static/js/787.7c4327f1.chunk.js": "/david-website/static/js/787.7c4327f1.chunk.js",
     "static/media/helvetica-neu.ttf": "/david-website/static/media/helvetica-neu.8a19678078a6b21c8057.ttf",
     "static/media/LaBelleAurore.woff2": "/david-website/static/media/LaBelleAurore.a83c1c58fd7e43972e4a.woff2",
     "static/media/CoolveticaRg-Regular.woff2": "/david-website/static/media/CoolveticaRg-Regular.7d1f3b1dd46ad6557a17.woff2",
     "index.html": "/david-website/index.html",
-    "main.a62d1995.css.map": "/david-website/static/css/main.a62d1995.css.map",
+    "main.565f5267.css.map": "/david-website/static/css/main.565f5267.css.map",
     "main.1a28e347.js.map": "/david-website/static/js/main.1a28e347.js.map",
     "787.7c4327f1.chunk.js.map": "/david-website/static/js/787.7c4327f1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a62d1995.css",
+    "static/css/main.565f5267.css",
     "static/js/main.1a28e347.js"
   ]
 }
