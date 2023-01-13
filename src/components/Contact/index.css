@@ -100,24 +100,24 @@
   
   }
 
-  .resume-box .flat-button{
+  .resume-box .the-button{
     position: absolute;
     top: 19vh;
-    right: 3vw;
+    right: 2.6vw;
     color: yellow;
     font-size: 13px;
     font-weight: 400;
     letter-spacing: 4px;
     font-family: sans-serif;
     text-decoration: none;
-    padding: 10px 18px;
+    padding: 2vh 2vw;
     border: 1px solid yellow;
     margin-top: 25px;
     animation: fadeIn 1s 3s backwards;
     white-space: nowrap;
   }
 
-  .resume-box .flat-button:hover{
+  .resume-box .the-button:hover{
     background: yellow;
     color: #333;
   }

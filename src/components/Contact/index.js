@@ -89,7 +89,7 @@ function Contact() {
                 </div>
 
                 <a href="https://drive.google.com/file/d/1x3W13zMHVZunuYCvNu9V4daYQmWj1SYs/view?usp=sharing" 
-                target="_blank" rel="noreferrer" class="flat-button"> Download Resume </a>
+                target="_blank" rel="noreferrer" class="the-button"> Download Resume </a>
             </div>
 
         </div>
