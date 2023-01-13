@@ -81,7 +81,7 @@
   animation-fill-mode: both;
 }
   .resume-box .resume-text{
-    position: absolute;
+    position: grid;
     top: 50px;
     left: 35px;
     font-size: 15px;

@@ -1,9 +1,9 @@
 import './index.css'
 import { useEffect, useState } from 'react'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+/* import { FontAwesomeIcon } from '@fortawesome/react-fontawesome' 
+import { faRunning } from '@fortawesome/free-solid-svg-icons' */
 import Loader from 'react-loaders'
 import AnimatedLetters from '../AnimatedLetters'
-import { faRunning } from '@fortawesome/free-solid-svg-icons'
 
 function About() {
     const [letterClass, setLetterClass] = useState('text-animate')
@@ -16,7 +16,7 @@ function About() {
   function badminton() {
     setTitle("Badminton");
     setText(
-        "yay badminton"
+    "oh yknow, text"
     );
   }
 

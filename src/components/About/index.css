@@ -1,7 +1,7 @@
 .buttons {
-    margin-left: 700px;
-    margin-top: 100px;
     display: grid;
+    margin-left: 50%;
+    margin-top: 5%;
     grid-template-columns: 100px 100px 100px 100px;
     grid-template-rows: 50px;
     column-gap: 50px;
@@ -27,9 +27,10 @@
 
 .about-body{
     position: absolute;
-    left: 700px;
-    top: 275px;
-    width: 400px;
+    margin-left: 50%;
+    margin-top: 10%;
+    width: 38vw;
+    height: 40vh;
 
 }
   .about-heading {
