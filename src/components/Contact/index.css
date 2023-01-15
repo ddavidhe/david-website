@@ -83,7 +83,7 @@
   .resume-box .resume-text{
     position: absolute;
     margin-left: 2vw;
-    margin-right: 1vw;
+    margin-right: 2vw;
     margin-top: 4vh;
     font-size: 15px;
     color: #fff;
@@ -103,6 +103,7 @@
 
   .resume-box .the-button{
     position: absolute;
+    text-align: center;
     top: 19vh;
     left: 2.6vw;
     right: 2.6vw;

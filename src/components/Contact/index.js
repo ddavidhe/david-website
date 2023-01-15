@@ -51,7 +51,7 @@ function Contact() {
                     index={15}/>
                 </h1>
                 <p>
-                    I am interested in getting a job. Please message me for job opps :3
+                Fill out the form below to send me an email! Talk to me about anything related to my hobbies and tech in general, or maybe your next great idea! I'd love to hear it :)
                 </p>
                 <div className='contact-form'>
                     <form ref={form} onSubmit={sendEmail}>
@@ -88,7 +88,7 @@ function Contact() {
                 <FontAwesomeIcon icon={faFile} color="#FFFFFF" />
                 </div>
 
-                <a href="https://drive.google.com/file/d/1x3W13zMHVZunuYCvNu9V4daYQmWj1SYs/view?usp=sharing" 
+                <a href="https://drive.google.com/file/d/1kNuQ7NZjt35xWRM55V_CiYovgRFZ3ofc/view?usp=sharing" 
                 target="_blank" rel="noreferrer" class="the-button"> Download Resume </a>
             </div>
 
