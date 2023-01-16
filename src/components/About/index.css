@@ -10,8 +10,9 @@
   .buttons .about-button {
     color: yellow;
     background: 0 0;
-    font: 11px;
-    letter-spacing: 3px;
+    font-size: 13px;
+    letter-spacing: 0px;
+    text-align: center;
     text-decoration: none;
     padding: 8px 10px;
     border: 1px solid yellow;

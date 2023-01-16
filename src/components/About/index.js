@@ -10,34 +10,34 @@ function About() {
 
     const defaultText = "Click any of the buttons on the left to learn more about me!"
 
-    const [title, setTitle] = useState("Hobby here :3");
+    const [title, setTitle] = useState("Hobbies will appear in the box below!");
     const [text, setText] = useState(defaultText);
 
   function badminton() {
     setTitle("Badminton");
     setText(
-    "oh yknow, text"
+        "I was introduced to the sport of badminton at a young age, but my passion for the sport was never ignited until the 11th grade. After training at my local club facility for a year, I managed to win my way through the regional highschool tournament to represent the GHAC region at OFSAA, the provincial level. Now I am an executive member of the University of Waterloo Badminton Club, and play regularily with my friends."
     );
   }
 
-  function math() {
-    setTitle("Math");
+  function swimming() {
+    setTitle("Swimming");
     setText(
-        "yay math"
+        "SOMETHING SOMETHING DANIEL ROMAG SWIMMING POOL NL"
     );
   }
 
-  function compsci() {
-    setTitle("Computer Science");
+  function music() {
+    setTitle("Music");
     setText(
-        "ew cs"
+        "I am a phenominal classical trombonist with great music taste"
     );
   }
 
-  function anime() {
-    setTitle("Anime");
+  function games() {
+    setTitle("Games");
     setText(
-        "weeb"
+        "uh i really have a trong passion for board games, and classic game ssuch as tic tac toe. I love the simplicity yet intricuite strategy that still happens."
     );
   }
 
@@ -63,10 +63,10 @@ function About() {
                 <p>more talking?</p>
             </div>
             <div className='buttons'>
-                <button className="about-button" onClick={badminton}>1</button>
-                <button className="about-button" onClick={math}>2</button>
-                <button className="about-button" onClick={compsci}>3</button>
-                <button className="about-button" onClick={anime}>4</button>
+                <button className="about-button" onClick={badminton}>Badminton</button>
+                <button className="about-button" onClick={swimming}>Swimming</button>
+                <button className="about-button" onClick={music}>Music</button>
+                <button className="about-button" onClick={games}>Games</button>
             </div>
             <div className="about-body">
                 <div className="about-heading">{title}</div>
