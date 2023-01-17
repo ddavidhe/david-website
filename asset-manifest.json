@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/david-website/static/css/main.06f1ec42.css",
-    "main.js": "/david-website/static/js/main.4e2bc545.js",
+    "main.css": "/david-website/static/css/main.68fae4d0.css",
+    "main.js": "/david-website/static/js/main.2d3e93e0.js",
     "static/js/787.7c4327f1.chunk.js": "/david-website/static/js/787.7c4327f1.chunk.js",
     "static/media/helvetica-neu.ttf": "/david-website/static/media/helvetica-neu.8a19678078a6b21c8057.ttf",
     "static/media/LaBelleAurore.woff2": "/david-website/static/media/LaBelleAurore.a83c1c58fd7e43972e4a.woff2",
     "static/media/CoolveticaRg-Regular.woff2": "/david-website/static/media/CoolveticaRg-Regular.7d1f3b1dd46ad6557a17.woff2",
     "index.html": "/david-website/index.html",
-    "main.06f1ec42.css.map": "/david-website/static/css/main.06f1ec42.css.map",
-    "main.4e2bc545.js.map": "/david-website/static/js/main.4e2bc545.js.map",
+    "main.68fae4d0.css.map": "/david-website/static/css/main.68fae4d0.css.map",
+    "main.2d3e93e0.js.map": "/david-website/static/js/main.2d3e93e0.js.map",
     "787.7c4327f1.chunk.js.map": "/david-website/static/js/787.7c4327f1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.06f1ec42.css",
-    "static/js/main.4e2bc545.js"
+    "static/css/main.68fae4d0.css",
+    "static/js/main.2d3e93e0.js"
   ]
 }
