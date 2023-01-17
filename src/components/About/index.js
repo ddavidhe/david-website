@@ -8,36 +8,36 @@ import AnimatedLetters from '../AnimatedLetters'
 function About() {
     const [letterClass, setLetterClass] = useState('text-animate')
 
-    const defaultText = "Click any of the buttons on the left to learn more about me!"
+    const defaultText = "Click any of the buttons above to learn more about me!"
 
-    const [title, setTitle] = useState("Hobbies will appear in the box below!");
+    const [title, setTitle] = useState("Hobbies will appear below this text!");
     const [text, setText] = useState(defaultText);
 
   function badminton() {
     setTitle("Badminton");
     setText(
-        "I was introduced to the sport of badminton at a young age, but my passion for the sport was never ignited until the 11th grade. After training at my local club facility for a year, I managed to win my way through the regional highschool tournament to represent the GHAC region at OFSAA, the provincial level. Now I am an executive member of the University of Waterloo Badminton Club, and play regularily with my friends."
+        "I was introduced to the sport of badminton at a young age, but my passion for the sport was never ignited until the 11th grade. After training at my local club facility for a year, I managed to win my way through the regional highschool tournament to represent the GHAC region at OFSAA, the provincial level. Now, I enjoy badminton as an executive member of the University of Waterloo Badminton Club, where I can be found playing with my friends."
     );
   }
 
   function swimming() {
     setTitle("Swimming");
     setText(
-        "SOMETHING SOMETHING DANIEL ROMAG SWIMMING POOL NL"
+        "Swimming was the sport that took the spotlight before badminton could. I never liked contact sports (still don't), so the prospect of an \"individual\" sport was right up my aisle. I was a member of the Burlington Aquatic Devilrays for over 6 years, two of which were at the regional level. The intense training that took place made me confident in my ability to also become a lifesaving professional, so I recently acquired my National Lifeguard certificate from the Lifesaving Society. Now, I try to swim at least once a week for my personal health, and it's always a nostalgic experience to dip into the pool."
     );
   }
 
   function music() {
     setTitle("Music");
     setText(
-        "I am a phenominal classical trombonist with great music taste"
+        "When all the band instruments were revealed, I thought the trombone's unique slide mechanism was the coolest. It was soon revealed that only I thought this. Being the sole trombone for nearly 5 years, I eventally sharpened my skills enough to meet people to felt the same way, and my passion for music grew. I got to preform on stage with orchestras and honor bands, experiences I can only credit music for. Now, I no longer play trombone, but my old concert music and practice etudes are now permanent residents in my daily playlists."
     );
   }
 
   function games() {
     setTitle("Games");
     setText(
-        "uh i really have a trong passion for board games, and classic game ssuch as tic tac toe. I love the simplicity yet intricuite strategy that still happens."
+        "As a child, I was always late to the newest technologies. I didn't get a phone until the 9th grade, so I had to entertain myself through other means, like play. Thankfully I have a wonderful sister, and we spent many afternoons and evenings playing board games. As an offline and portable form of entertainment, board games have provided me with countless hours of entertainment in the past. Most recently I've been learning Mahjong from playing rounds my parents, and I love that when played optimally, it requires a deep understanding of statistics and combinatorics, two fields of research that I hope to pursue in the future."
     );
   }
 
@@ -59,7 +59,7 @@ function About() {
                         />
                 </h1>
                 <p>Hi there! My name is David He (as you know), and this is my website! I'm currently a 1B student at The University of Waterloo, and am fascinated to learn all about the world of software and data.</p>
-                <p> My programming journey began in 2018, where I took my very first elementary programming course. The realization that I could create whatever I wanted and at the cost of nothing was a true revelation, and that's when I fell in love with programming.</p>
+                <p>My programming journey began in 2018, where I took my very first elementary programming course. The realization that I could create whatever I wanted and at the cost of nothing was a true revelation, and that's when I fell in love with programming.</p>
                 <p>I love the process of learning more than anything, and try to apply this mentality into everything I do. This mentality shows itself most my hobbies, which you can learn more about through the buttons on the left.</p>
             </div>
             <div className='buttons'>

@@ -39,7 +39,7 @@ function Home() {
                 index = {26}/>
                 </h1>
 
-                <h2> Mathematics student at UW, swimmer, gacha enthusiast</h2>
+                <h2> Mathematics student at UW, swimmer, board game enthusiast</h2>
                 <Link to="/contact" className="flat-button"> CONTACT ME </Link>
             </div>
         </div>

@@ -26,7 +26,7 @@ function Portfolio() {
                         strArray={['M', 'y', ' ', 'P', 'o', 'r', 't', 'f', 'o', 'l', 'i', 'o']}
                         index={15} />
                 </h1>
-                <p>Here are a few of my personal projects I've done!</p>
+                <p>Here are a few of my personal projects I've done! (STILL WORK IN PRODUCT)</p>
                 <p>I also have this neat animated cube which is showcasing my various skills</p>
             </div>
         </div>
