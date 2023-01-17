@@ -53,10 +53,6 @@ function Portfolio() {
                 </div>
             </div>
         </div>
-
-
-
-
         <Loader type="ball-grid-pulse" />
         </>
     )
