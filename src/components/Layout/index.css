@@ -117,3 +117,26 @@
   .container.about-page .text-animate-hover:hover {
     color: yellow;
   }
+
+  @media screen and (max-width: 900px) {
+    .page {
+      position: initial;
+    }
+
+    .container {
+      position: initial;
+      height: auto;
+      min-height: auto;
+    }
+
+    .container.contact-page .text-zone,
+    .container.about-page .text-zone,
+    .container.portfolio-page .text-zone {
+      position: initial;
+      transform: none;
+      width: 100%;
+      display: block;
+      padding: 20px;
+      box-sizing: border-box;
+    }
+  }

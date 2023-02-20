@@ -83,3 +83,13 @@
 .pythonimage {
     width: 50%;
 }
+
+@media screen and (max-width: 900px) {
+  .stage-cube-cont {
+    position: initial;
+    width: 100%;
+    height: 0%;
+    overflow: visible;
+  }
+
+}

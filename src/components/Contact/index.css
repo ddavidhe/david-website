@@ -124,3 +124,14 @@
     background: yellow;
     color: #333;
   }
+
+
+@media screen and (max-width: 900px) {
+  .resume-box {
+    float: none;
+    width: 100%;
+    height: 400px;
+    margin: 0;
+  }
+
+}
