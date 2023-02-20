@@ -3,10 +3,9 @@ import './index.css'
 import { useEffect, useRef, useState } from 'react'
 import emailjs from '@emailjs/browser';
 import Loader from 'react-loaders';
-{/*
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faFile } from '@fortawesome/free-solid-svg-icons'
-*/}
+//import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+//import { faFile } from '@fortawesome/free-solid-svg-icons'
+
 
 function Contact() {
     const form = useRef();
