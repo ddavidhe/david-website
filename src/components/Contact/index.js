@@ -3,9 +3,10 @@ import './index.css'
 import { useEffect, useRef, useState } from 'react'
 import emailjs from '@emailjs/browser';
 import Loader from 'react-loaders';
+{/*
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFile } from '@fortawesome/free-solid-svg-icons'
-
+*/}
 
 function Contact() {
     const form = useRef();
@@ -79,7 +80,7 @@ function Contact() {
                     </form>
                 </div>
             </div>
-
+            {/*
             <div className='resume-box'>
                 <div className='resume-text'>
                     Alternatively, download my resume!
@@ -90,8 +91,8 @@ function Contact() {
 
                 <a href="https://drive.google.com/file/d/16axAKtfHHF1XKBn_Fk0ypG4c7_8VN5V1/view?usp=sharing" 
                 target="_blank" rel="noreferrer" class="the-button"> Download Resume </a>
-            </div>
-
+    </div> */}
+        
         </div>
 
         <Loader type="ball-grid-pulse" />
