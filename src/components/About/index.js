@@ -60,7 +60,7 @@ function About() {
                 </h1>
                 <p>Hi there! My name is David He (as you know), and this is my website! I'm currently a 1B student at The University of Waterloo, and am fascinated to learn all about the world of software and data.</p>
                 <p>My programming journey began in 2018, where I took my very first elementary programming course. The realization that I could create whatever I wanted and at the cost of nothing was a true revelation, and that's when I fell in love with programming.</p>
-                <p>I love the process of learning more than anything, and try to apply this mentality into everything I do. This mentality shows itself most my hobbies, which you can learn more about through the buttons on the left.</p>
+                <p>I love the process of learning more than anything, and try to apply this mentality into everything I do. This mentality shows itself most my hobbies, which you can learn more about through the buttons on the screen.</p>
             </div>
             <div className='buttons'>
                 <button className="about-button" onClick={badminton}>Badminton</button>
