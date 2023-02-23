@@ -47,7 +47,7 @@ function Contact() {
                 <h1>
                     <AnimatedLetters 
                     letterClass={letterClass}
-                    strArray={['C', 'o', 'n', 't', 'a', 'c', 't', ' ', 'M', 'e']}
+                    strArray={"Contact Me".split("")}
                     index={15}/>
                 </h1>
                 <p>

@@ -2,9 +2,15 @@
     "portfolio": [
         {
             "cover": "/portfolio/1/bunnymaria.png",
-            "title": "bunny :)",
-            "description": "react, jsx, java, racket, bunny",
-            "url": "https://github.com/ddavidhe"
+            "title": "GGWP",
+            "description": "React, JSX, BUNNY, Jest",
+            "url": "https://www.op.gg/"
+        },
+        {
+            "cover": "/portfolio/1/bunnymaria.png",
+            "title": "BUNNY",
+            "description": "BUNYY, JSX, Tailwind, Jest",
+            "url": "https://www.linkedin.com/in/ddavid-he/"
         }
     ]
 }

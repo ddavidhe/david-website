@@ -19,17 +19,28 @@ function Portfolio() {
         return (
             <div className="images-container">
                 {
-                    portfolio.map((port, index) => {
+                    portfolio.map((port, idx) => {
                         return (
-                            <div className="image-box" key={index}>
-                                <img src={port.cover} className="portfolio-image" alt="mypenis" />
+                            <div className="image-box" key={idx}>
+                                <img 
+                                src={port.image}
+                                className="portfolio-image"
+                                alt="portfolio" />
+                                <div className="content">
+                                    <p className="title">{port.name}</p>
+                                    <h4 className="description">{port.description}</h4>
+                                    <button
+                                        className="btn"
+                                        onClick={() => window.open(port.url)}
+                                    >View</button>
+                                </div>
                             </div>
                         )
                     })
                 }
             </div>
         );
-      }
+    }
  
     return (
         <>
@@ -37,7 +48,7 @@ function Portfolio() {
             <h1 className="page-title">
                 <AnimatedLetters
                         letterClass={letterClass}
-                        strArray={['P', 'o', 'r', 't', 'f', 'o', 'l', 'i', 'o']}
+                        strArray={"Portfolio".split("")}
                         index={15}
                 />
             </h1>

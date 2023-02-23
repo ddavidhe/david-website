@@ -54,7 +54,7 @@ function About() {
                 <h1>
                     <AnimatedLetters
                         letterClass={letterClass}
-                        strArray={['A', 'b', 'o', 'u', 't', ' ', 'M', 'e']}
+                        strArray={"About Me".split("")}
                         index={15}
                         />
                 </h1>

@@ -8,8 +8,6 @@ import './index.css';
 
 function Home() {
     const [letterClass, setLetterClass] = useState('text-animate')
-    const nameArray = [' ', 'D', 'a', 'v', 'i', 'd', ' ', 'H', 'e', ',']
-    const subArray = ['A', 's', 'p', 'i', 'r', 'i', 'n', 'g', ' ', 'D', 'e', 'v', 'e', 'l', 'o', 'p', 'e', 'r']
 
     useEffect(() => {
       setTimeout(() => {
@@ -33,11 +31,11 @@ function Home() {
 
 
                 <AnimatedLetters letterClass={letterClass}
-                strArray={nameArray} 
+                strArray={" David He,".split("")} 
                 index = {17}/>
                 <br/>
                 <AnimatedLetters letterClass={letterClass}
-                strArray={subArray}
+                strArray={"Aspiring Developer".split("")}
                 index = {26}/>
                 </h1>
 
