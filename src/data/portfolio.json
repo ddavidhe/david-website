@@ -1,16 +1,14 @@
 {
     "portfolio": [
         {
-            "cover": "src/data/bunnymaria.png",
-            "title": "SUPERLONG EXTRALONG TITLE",
-            "description": "React, JSX, BUNNY, Jest",
-            "url": "https://www.op.gg/"
+            "title": "sample project 1",
+            "description": "miniso, bunny, online",
+            "url": "https://www.miniso-au.com/en-au/product/101721/bunny-plush-toy-blue"
         },
         {
-            "cover": "src/data/bunnymaria.png",
-            "title": "BUNNY",
-            "description": "BUNYY, JSX, Tailwind, Jest",
-            "url": "https://www.linkedin.com/in/ddavid-he/"
+            "title": "sample project 2",
+            "description": "miniso, bunny2, online",
+            "url": "https://www.miniso-au.com/en-au/product/101721/bunny-plush-toy-blue"
         }
     ]
 }
