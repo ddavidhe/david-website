@@ -6,7 +6,14 @@
             "url": "https://www.miniso-au.com/en-au/product/101721/bunny-plush-toy-blue"
         },
         {
+            "cover": "bunnymaria.png",
             "title": "sample project 2",
+            "description": "miniso, bunny2, online",
+            "url": "https://www.miniso-au.com/en-au/product/101721/bunny-plush-toy-blue"
+        },
+        {
+            "cover": "wordlepicture.png",
+            "title": "sample project 3",
             "description": "miniso, bunny2, online",
             "url": "https://www.miniso-au.com/en-au/product/101721/bunny-plush-toy-blue"
         }
