@@ -1,0 +1,10 @@
+{
+    "portfolio": [
+        {
+            "cover": "/portfolio/1/bunnymaria.png",
+            "title": "bunny :)",
+            "description": "react, jsx, java, racket, bunny",
+            "url": "https://github.com/ddavidhe"
+        }
+    ]
+}

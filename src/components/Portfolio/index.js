@@ -2,10 +2,11 @@ import './index.css';
 import AnimatedLetters from '../AnimatedLetters'
 import { useEffect, useState } from 'react'
 import Loader from 'react-loaders'
+import portfolioData from '../../data/portfolio.json'
 
 function Portfolio() {
 
-    const [letterClass, setLetterClass] = useState('text-animate');
+    const [letterClass, setLetterClass] = useState('text-animate')
 
     useEffect(() => {
         setTimeout(() => {
@@ -14,25 +15,37 @@ function Portfolio() {
       }, []);
 
 
+      const renderPortfolio = (portfolio) => {
+        return (
+            <div className="images-container">
+                {
+                    portfolio.map((port, index) => {
+                        return (
+                            <div className="image-box" key={index}>
+                                <img src={port.cover} className="portfolio-image" alt="mypenis" />
+                            </div>
+                        )
+                    })
+                }
+            </div>
+        );
+      }
+ 
     return (
         <>
         <div className="container portfolio-page">
-            <div className="text-zone">
-                <h1>
-                    <AnimatedLetters
+            <h1 className="page-title">
+                <AnimatedLetters
                         letterClass={letterClass}
-                        strArray={['M', 'y', ' ', 'P', 'o', 'r', 't', 'f', 'o', 'l', 'i', 'o']}
-                        index={15} />
-                </h1>
-                <p>Here are a few of my personal projects I've done! (STILL WORK IN PROGRESS)</p>
-                <p>I also have this neat animated cube which is showcasing my various skills</p>
-            </div>
+                        strArray={['P', 'o', 'r', 't', 'f', 'o', 'l', 'i', 'o']}
+                        index={15}
+                />
+            </h1>
+            <div>{renderPortfolio(portfolioData.portfolio)}</div>
         </div>
         <Loader type="ball-grid-pulse" />
         </>
     )
-
-
 };
 
 
