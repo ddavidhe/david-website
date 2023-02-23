@@ -1,6 +1,7 @@
 {
     "portfolio": [
         {
+            "cover": "public/bunnymaria.png",
             "title": "sample project 1",
             "description": "miniso, bunny, online",
             "url": "https://www.miniso-au.com/en-au/product/101721/bunny-plush-toy-blue"
