@@ -3,8 +3,8 @@ import './index.css'
 import { useEffect, useRef, useState } from 'react'
 import emailjs from '@emailjs/browser';
 import Loader from 'react-loaders';
-//import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-//import { faFile } from '@fortawesome/free-solid-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faFile } from '@fortawesome/free-solid-svg-icons'
 
 
 function Contact() {
@@ -74,7 +74,7 @@ function Contact() {
                     </form>
                 </div>
             </div>
-            {/*
+            
             <div className='resume-box'>
                 <div className='resume-text'>
                     Alternatively, download my resume!
@@ -84,7 +84,7 @@ function Contact() {
                 </div>
                 <a href="https://drive.google.com/file/d/1bIQPBvdlDaQyfWivJHpyUXvHmlSdY7Su/view?usp=sharing" 
                 target="_blank" rel="noreferrer" class="the-button"> Download Resume </a>
-                </div> */}
+                </div>
         </div>
         <Loader type="ball-grid-pulse" />
     </>
