@@ -94,12 +94,12 @@
 }
 
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 700px) {
   .buttons {
     padding-left: 5%;
     grid-template-columns: 100px 100px;
     grid-template-rows: 50px 50px;
-    column-gap: 120px;
+    column-gap: 30vw;
     margin-left: 10%;
   }
 

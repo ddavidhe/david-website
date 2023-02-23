@@ -1,22 +1,22 @@
 {
     "portfolio": [
         {
-            "cover": "public/bunnymaria.png",
-            "title": "sample project 1",
-            "description": "miniso, bunny, online",
-            "url": "https://www.miniso-au.com/en-au/product/101721/bunny-plush-toy-blue"
+            "cover": "websitepicture.png",
+            "title": "Personal Website",
+            "description": "React, Javascript, HTML, CSS",
+            "url": "https://ddavidhe.github.io/david-website/"
         },
         {
-            "cover": "bunnymaria.png",
-            "title": "sample project 2",
-            "description": "miniso, bunny2, online",
-            "url": "https://www.miniso-au.com/en-au/product/101721/bunny-plush-toy-blue"
+            "cover": "jokepicture.png",
+            "title": "Joke of the Day",
+            "description": "Javascript, HTML, CSS, JokeAPI",
+            "url": "https://github.com/ddavidhe/jokeoftheday"
         },
         {
             "cover": "wordlepicture.png",
-            "title": "sample project 3",
-            "description": "miniso, bunny2, online",
-            "url": "https://www.miniso-au.com/en-au/product/101721/bunny-plush-toy-blue"
+            "title": "Wordle Clone",
+            "description": "Python",
+            "url": "https://github.com/ddavidhe/wordle-clone"
         }
     ]
 }

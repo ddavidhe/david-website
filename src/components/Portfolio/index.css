@@ -95,3 +95,38 @@
     bottom: 0;
     background: transparent;
   }
+
+@media screen and (max-width: 900px) {
+  .container .portfolio-page {
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+
+  .portfolio-page .images-container {
+    display: grid;
+    grid-template-columns: 50% 50%;
+  }
+
+  .portfolio-page .page-title {
+    margin-left: 20px;
+    margin-top: 20px;
+  }
+  
+  .portfolio-page .image-box {
+    height: 200px;
+    max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 700px) {
+
+  .portfolio-page .images-container {
+    display: grid;
+    grid-template-columns: 100%;
+  }
+
+  .portfolio-page .image-box {
+    max-width: 100%;
+  }
+}
