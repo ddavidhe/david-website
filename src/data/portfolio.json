@@ -1,13 +1,13 @@
 {
     "portfolio": [
         {
-            "cover": "/portfolio/1/bunnymaria.png",
-            "title": "GGWP",
+            "cover": "src/data/bunnymaria.png",
+            "title": "SUPERLONG EXTRALONG TITLE",
             "description": "React, JSX, BUNNY, Jest",
             "url": "https://www.op.gg/"
         },
         {
-            "cover": "/portfolio/1/bunnymaria.png",
+            "cover": "src/data/bunnymaria.png",
             "title": "BUNNY",
             "description": "BUNYY, JSX, Tailwind, Jest",
             "url": "https://www.linkedin.com/in/ddavid-he/"
