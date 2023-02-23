@@ -66,15 +66,10 @@ function Contact() {
                                 <input placeholder="Subject" type="text" name="subject" required/>
                             </li>
                             <li>
-                                <textarea placeholder="Message" name="message" required>
-
-                                </textarea>
+                                <textarea placeholder="Message" name="message" required/>
                             </li>
                             <li>
-                                <input type="submit" className='flat-button' value="SEND" required> 
-
-                                </input>
-                            </li>
+                                <input type="submit" className='flat-button' value="SEND" required/>                             </li>
                         </ul>
                     </form>
                 </div>
@@ -85,15 +80,12 @@ function Contact() {
                     Alternatively, download my resume!
                 </div>
                 <div className='resume-icon'>
-                <FontAwesomeIcon icon={faFile} color="#FFFFFF" />
+                    <FontAwesomeIcon icon={faFile} color="#FFFFFF" />
                 </div>
-
-                <a href="https://drive.google.com/file/d/16axAKtfHHF1XKBn_Fk0ypG4c7_8VN5V1/view?usp=sharing" 
+                <a href="https://drive.google.com/file/d/1bIQPBvdlDaQyfWivJHpyUXvHmlSdY7Su/view?usp=sharing" 
                 target="_blank" rel="noreferrer" class="the-button"> Download Resume </a>
-    </div> */}
-        
+                </div> */}
         </div>
-
         <Loader type="ball-grid-pulse" />
     </>
     )
