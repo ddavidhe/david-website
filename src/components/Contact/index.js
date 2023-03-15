@@ -82,7 +82,7 @@ function Contact() {
                 <div className='resume-icon'>
                     <FontAwesomeIcon icon={faFile} color="#FFFFFF" />
                 </div>
-                <a href="https://drive.google.com/file/d/1bIQPBvdlDaQyfWivJHpyUXvHmlSdY7Su/view?usp=sharing" 
+                <a href="https://drive.google.com/file/d/1_N3DI4pMgn90pc_noXwTzlS83QAVHO7_/view?usp=sharing" 
                 target="_blank" rel="noreferrer" class="the-button"> Download Resume </a>
                 </div>
         </div>
