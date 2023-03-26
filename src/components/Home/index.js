@@ -43,7 +43,11 @@ function Home() {
                 <Link to="/contact" className="flat-button"> CONTACT ME </Link>
             </div>   
         </div>
-
+{/*}
+        <div className='meimage'>
+            <img src="linkedinphoto.JPG" alt="HELP" className='mephoto' />
+        </div>
+*/}
         <div className='stage-cube-cont'>
             <div className='cubespinner'>
                 <div className='face1'>
