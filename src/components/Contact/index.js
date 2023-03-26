@@ -69,13 +69,14 @@ function Contact() {
                                 <textarea placeholder="Message" name="message" required/>
                             </li>
                             <li>
-                                <input type="submit" className='flat-button' value="SEND" required/>                             </li>
+                                <input type="submit" className='flat-button' value="SEND" required/>
+                            </li>
                         </ul>
                     </form>
                 </div>
             </div>
             
-            <div className='resume-box'>
+{/*            <div className='resume-box'>
                 <div className='resume-text'>
                     Alternatively, download my resume!
                 </div>
@@ -84,14 +85,14 @@ function Contact() {
                 </div>
                 <a href="https://drive.google.com/file/d/1_N3DI4pMgn90pc_noXwTzlS83QAVHO7_/view?usp=sharing" 
                 target="_blank" rel="noreferrer" class="the-button"> Download Resume </a>
-                </div>
-        </div>
+            </div>
+*/}
+        </div> 
         <Loader type="ball-grid-pulse" />
     </>
     )
 
 }
-
 
 
 export default Contact
