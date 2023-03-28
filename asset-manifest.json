@@ -1,18 +1,22 @@
 {
   "files": {
-    "main.css": "/david-website/static/css/main.b0c92f0d.css",
-    "main.js": "/david-website/static/js/main.160e917a.js",
+    "main.css": "/david-website/static/css/main.53491332.css",
+    "main.js": "/david-website/static/js/main.4cc1296c.js",
     "static/js/787.7c4327f1.chunk.js": "/david-website/static/js/787.7c4327f1.chunk.js",
+    "static/media/jokepicture.png": "/david-website/static/media/jokepicture.e126cf7f55445dcec8b4.png",
+    "static/media/wordlepicture.png": "/david-website/static/media/wordlepicture.d409426efa8f12326ec0.png",
     "static/media/helvetica-neu.ttf": "/david-website/static/media/helvetica-neu.8a19678078a6b21c8057.ttf",
+    "static/media/websitepicture.png": "/david-website/static/media/websitepicture.4458987cc59156258cac.png",
     "static/media/LaBelleAurore.woff2": "/david-website/static/media/LaBelleAurore.a83c1c58fd7e43972e4a.woff2",
+    "static/media/pythonlogo.png": "/david-website/static/media/pythonlogo.433a00a09a48ba5f8f58.png",
     "static/media/CoolveticaRg-Regular.woff2": "/david-website/static/media/CoolveticaRg-Regular.7d1f3b1dd46ad6557a17.woff2",
     "index.html": "/david-website/index.html",
-    "main.b0c92f0d.css.map": "/david-website/static/css/main.b0c92f0d.css.map",
-    "main.160e917a.js.map": "/david-website/static/js/main.160e917a.js.map",
+    "main.53491332.css.map": "/david-website/static/css/main.53491332.css.map",
+    "main.4cc1296c.js.map": "/david-website/static/js/main.4cc1296c.js.map",
     "787.7c4327f1.chunk.js.map": "/david-website/static/js/787.7c4327f1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b0c92f0d.css",
-    "static/js/main.160e917a.js"
+    "static/css/main.53491332.css",
+    "static/js/main.4cc1296c.js"
   ]
 }
