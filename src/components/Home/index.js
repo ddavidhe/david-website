@@ -6,6 +6,8 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCss3Alt, faGitAlt, faHtml5, faJsSquare, faReact } from '@fortawesome/free-brands-svg-icons'
 import './index.css';
 
+import pythonLogo from "./pythonlogo.png";
+
 function Home() {
     const [letterClass, setLetterClass] = useState('text-animate')
 
@@ -51,7 +53,7 @@ function Home() {
         <div className='stage-cube-cont'>
             <div className='cubespinner'>
                 <div className='face1'>
-                    <img src="pythonlogo.png" alt="XD" className='pythonimage'/>
+                    <img src={pythonLogo} alt="XD" className='pythonimage'/>
                 </div>
                 <div className='face2'>
                         <FontAwesomeIcon icon={faHtml5} color="#F06529" />

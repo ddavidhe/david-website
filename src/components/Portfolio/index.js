@@ -2,7 +2,9 @@ import './index.css';
 import AnimatedLetters from '../AnimatedLetters'
 import { useEffect, useState } from 'react'
 import Loader from 'react-loaders'
-import portfolioData from '../../data/portfolio.json'
+
+import React from 'react';
+import { portfolios } from '../../data/portfolio'
 
 function Portfolio() {
 
@@ -46,7 +48,7 @@ function Portfolio() {
                         index={15}
                 />
             </h1>
-            <div>{renderPortfolio(portfolioData.portfolio)}</div>
+            <div>{renderPortfolio(portfolios)}</div>
         </div>
         <Loader type="ball-grid-pulse" />
         </>
