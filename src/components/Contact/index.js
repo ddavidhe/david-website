@@ -14,7 +14,7 @@ function Contact() {
         e.preventDefault();
 
         emailjs.sendForm(
-            "service_la2ze73",
+            "service_bye3o18", 
             "template_httyxhi",
             form.current,
             "aIPq14S5ThxGkDvLS"
@@ -75,18 +75,6 @@ function Contact() {
                     </form>
                 </div>
             </div>
-            
-{/*            <div className='resume-box'>
-                <div className='resume-text'>
-                    Alternatively, download my resume!
-                </div>
-                <div className='resume-icon'>
-                    <FontAwesomeIcon icon={faFile} color="#FFFFFF" />
-                </div>
-                <a href="https://drive.google.com/file/d/1_N3DI4pMgn90pc_noXwTzlS83QAVHO7_/view?usp=sharing" 
-                target="_blank" rel="noreferrer" class="the-button"> Download Resume </a>
-            </div>
-*/}
         </div> 
         <Loader type="ball-grid-pulse" />
     </>
