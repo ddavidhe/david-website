@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/david-website/static/css/main.e4fdd785.css",
+    "main.css": "/david-website/static/css/main.329cc4a3.css",
     "main.js": "/david-website/static/js/main.4cc1296c.js",
     "static/js/787.7c4327f1.chunk.js": "/david-website/static/js/787.7c4327f1.chunk.js",
     "static/media/jokepicture.png": "/david-website/static/media/jokepicture.e126cf7f55445dcec8b4.png",
@@ -11,12 +11,12 @@
     "static/media/pythonlogo.png": "/david-website/static/media/pythonlogo.433a00a09a48ba5f8f58.png",
     "static/media/CoolveticaRg-Regular.woff2": "/david-website/static/media/CoolveticaRg-Regular.7d1f3b1dd46ad6557a17.woff2",
     "index.html": "/david-website/index.html",
-    "main.e4fdd785.css.map": "/david-website/static/css/main.e4fdd785.css.map",
+    "main.329cc4a3.css.map": "/david-website/static/css/main.329cc4a3.css.map",
     "main.4cc1296c.js.map": "/david-website/static/js/main.4cc1296c.js.map",
     "787.7c4327f1.chunk.js.map": "/david-website/static/js/787.7c4327f1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e4fdd785.css",
+    "static/css/main.329cc4a3.css",
     "static/js/main.4cc1296c.js"
   ]
 }
