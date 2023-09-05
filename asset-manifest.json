@@ -1,22 +1,23 @@
 {
   "files": {
-    "main.css": "/david-website/static/css/main.8ea6a93d.css",
-    "main.js": "/david-website/static/js/main.92912dc7.js",
+    "main.css": "/david-website/static/css/main.c1af2ddf.css",
+    "main.js": "/david-website/static/js/main.0278ec89.js",
     "static/js/787.7c4327f1.chunk.js": "/david-website/static/js/787.7c4327f1.chunk.js",
+    "static/media/scrapepicture.png": "/david-website/static/media/scrapepicture.6bb40f8d2e7c4ac5d199.png",
     "static/media/jokepicture.png": "/david-website/static/media/jokepicture.e126cf7f55445dcec8b4.png",
-    "static/media/wordlepicture.png": "/david-website/static/media/wordlepicture.d409426efa8f12326ec0.png",
+    "static/media/snackpicture.png": "/david-website/static/media/snackpicture.a054c4882532983acca7.png",
     "static/media/helvetica-neu.ttf": "/david-website/static/media/helvetica-neu.8a19678078a6b21c8057.ttf",
     "static/media/websitepicture.png": "/david-website/static/media/websitepicture.4458987cc59156258cac.png",
     "static/media/LaBelleAurore.woff2": "/david-website/static/media/LaBelleAurore.a83c1c58fd7e43972e4a.woff2",
     "static/media/pythonlogo.png": "/david-website/static/media/pythonlogo.433a00a09a48ba5f8f58.png",
     "static/media/CoolveticaRg-Regular.woff2": "/david-website/static/media/CoolveticaRg-Regular.7d1f3b1dd46ad6557a17.woff2",
     "index.html": "/david-website/index.html",
-    "main.8ea6a93d.css.map": "/david-website/static/css/main.8ea6a93d.css.map",
-    "main.92912dc7.js.map": "/david-website/static/js/main.92912dc7.js.map",
+    "main.c1af2ddf.css.map": "/david-website/static/css/main.c1af2ddf.css.map",
+    "main.0278ec89.js.map": "/david-website/static/js/main.0278ec89.js.map",
     "787.7c4327f1.chunk.js.map": "/david-website/static/js/787.7c4327f1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8ea6a93d.css",
-    "static/js/main.92912dc7.js"
+    "static/css/main.c1af2ddf.css",
+    "static/js/main.0278ec89.js"
   ]
 }
