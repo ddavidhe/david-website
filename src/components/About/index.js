@@ -58,8 +58,8 @@ function About() {
                         index={15}
                         />
                 </h1>
-                <p>Hi there! My name is David He, and this is my website! I'm currently a 1B student at The University of Waterloo, and am fascinated to learn all about the world of software and data.</p>
-                <p>My programming journey began in 2018, where I took my very first elementary programming course. The realization that I could create whatever I wanted and at the cost of nothing was a true revelation, and that's when I fell in love with programming.</p>
+                <p>Hi there! My name is David He, and this is my website! I'm currently a second student at The University of Waterloo, majoring in Statistics with a minor in Computer Science.</p>
+                <p>I'm looking to learn more about the world of data analytics and data science, and I have a growing passion for deep machine learning.</p>
                 <p>I love the process of learning more than anything, and try to apply this mentality into everything I do. This mentality shows itself most my hobbies, which you can learn more about through the buttons on the screen.</p>
             </div>
             <div className='buttons'>
