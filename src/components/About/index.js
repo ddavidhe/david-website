@@ -58,7 +58,7 @@ function About() {
                         index={15}
                         />
                 </h1>
-                <p>Hi there! My name is David He, and this is my website! I'm currently a second student at The University of Waterloo, majoring in Statistics with a minor in Computer Science.</p>
+                <p>Hi there! My name is David He, and this is my website! I'm currently a second year student at the University of Waterloo, majoring in Statistics with a minor in Computer Science.</p>
                 <p>I'm looking to learn more about the world of data analytics and data science, and I have a growing passion for deep machine learning.</p>
                 <p>I love the process of learning more than anything, and try to apply this mentality into everything I do. This mentality shows itself most my hobbies, which you can learn more about through the buttons on the screen.</p>
             </div>
